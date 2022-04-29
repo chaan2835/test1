@@ -1,9 +1,11 @@
 pipeline {
     agent any
     stages {
-        stage('changing version') {
+        stage('monitoring') {
             steps {
-                sh 'echo version changed successfully'
+                sh 'echo monitoring all the elk nodes'
+
+            
  } 
 }
 }
