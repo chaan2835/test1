@@ -4,8 +4,7 @@ pipeline {
         stage('changing version') {
             steps {
                 sh 'echo version changed successfully'
-            }
-        }
  } 
 }
-
+}
+}
