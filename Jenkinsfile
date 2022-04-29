@@ -5,7 +5,8 @@ pipeline {
             steps {
                 sh 'echo monitoring all the elk nodes'
 
-            }
-        }
+            
  } 
+}
+}
 }
