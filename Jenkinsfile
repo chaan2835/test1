@@ -1,12 +1,12 @@
 pipeline {
     agent any
     stages {
-        stage('monitoring') {
-            steps {
-                sh 'echo monitoring all the elk nodes'
 
-            
- } 
+        stage('Ready to Deploy') {
+            steps {
+                sh 'echo deploying'
+            }
+        }
+ }
 }
-}
-}
+
