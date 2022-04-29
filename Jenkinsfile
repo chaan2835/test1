@@ -12,7 +12,7 @@ pipeline {
                 input(message: "Deploy to production?")
             }
         }
-        stage('Example Deploy') 
+        stage('Example Deploy') {
             steps {
                 sh 'echo Deploying'
             }
