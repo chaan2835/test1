@@ -1,11 +1,10 @@
-
 pipeline {
     agent any
     stages {
-        stage('Example Build') {
+        stage('changing version') {
             steps {
-                sh 'echo Hello World'
-            }
-        }
+                sh 'echo version changed successfully'
  } 
+}
+}
 }
