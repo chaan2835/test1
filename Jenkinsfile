@@ -1,8 +1,11 @@
 pipeline {
-stage('Ready to Deploy') {
+    agent any
+    stages {
+        stage('Ready to Deploy') {
             steps {
-                input(message: "Deploy to production?")
+                sh 'echo deploying'
             }
         }
-
+ }
 }
+
